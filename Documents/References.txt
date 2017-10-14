@@ -1,0 +1,19 @@
+Bibliografia_Bases
+
+
+https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-16-04
+
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04
+
+mysql password basesProgra2@
+
+https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-16-04
+
+https://1stwebdesigner.com/local-web-server/
+
+37:38
+https://www.youtube.com/watch?v=4hoUjJNZ9Xo&list=PL2G4bp6BBrqyQRT44Fy2JbcJ0f7eoeapR&index=3
+
+.htpasswd file basesProgra2@
+
+https://www.digitalocean.com/community/tutorials/how-to-move-an-apache-web-root-to-a-new-location-on-ubuntu-16-04
