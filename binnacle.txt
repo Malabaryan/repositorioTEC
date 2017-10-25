@@ -1,5 +1,0 @@
-Bitacora:
-
-Miercoles 11 octubre : profesor explica y entrega la especificacion del proyecto
-Viernes 13 de oct : instalacion de apache, phpMyadmin y boceto del index.html de la pagina web
-Sabado 14 octubre: primer diagrama entidad relacion, enviado al profesor para revision y retrolimentacion
