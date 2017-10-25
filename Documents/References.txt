@@ -11,9 +11,16 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmy
 
 https://1stwebdesigner.com/local-web-server/
 
-37:38
-https://www.youtube.com/watch?v=4hoUjJNZ9Xo&list=PL2G4bp6BBrqyQRT44Fy2JbcJ0f7eoeapR&index=3
+https://youtu.be/k1GBHmmTUrs?t=22m39s
 
 .htpasswd file basesProgra2@
 
 https://www.digitalocean.com/community/tutorials/how-to-move-an-apache-web-root-to-a-new-location-on-ubuntu-16-04
+
+https://desarrolloweb.com/faq/mostrar-errores-php-error-500.html
+
+sudo service apache2 restart
+
+http://php.net/manual/es/mysqli.query.php
+
+https://stackoverflow.com/questions/37152771/undefined-variable-mysqli
