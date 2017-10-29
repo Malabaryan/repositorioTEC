@@ -1,13 +1,14 @@
 create table investigador(
- ORCID varchar(16) not null, 
- nombre varchar(14) not null, 
- apellido1 varchar(13) not null, 
- apellido2 varchar(13), 
- AfiliacionActual varchar(20), 
- correo varchar(30), 
- telefono int, 
- direccion varchar(40), 
- Primary key (ORCID) );
+	 ORCID varchar(16) not null, 
+	 nombre varchar(14) not null, 
+	 apellido1 varchar(13) not null, 
+	 apellido2 varchar(13), 
+	 AfiliacionActual varchar(20), 
+	 correo varchar(30), 
+	 telefono int, 
+	 direccion varchar(40), 
+	 Primary key (ORCID) 
+);
 
 create table proyecto ( 
 	id_proyecto int not null, 
@@ -44,12 +45,19 @@ create table investigadorEnProyecto(
 
 );
 
+create table financiadoPor ( 
+	  id_proyecto not null,
+	  id_financiamento int not null,
+	  Primary key(id_proyecto,id_financiamento) 
+	  );
+
 create table publicacion ( 
 	  DOI varchar(30) not null,
 	  titulo varchar(15),
 	  mesPublicacion date, 
 	  anhoPubicacion int, 
 	  fuente varchar(20), 
+	  id_proyecto int,
 	  Primary key(DOI) );
 
 create table palabraClave( 
@@ -88,4 +96,4 @@ create table autor(
 	foreign key(DOI) references publicacion(DOI), 
 	foreign key(ORCID) references investigador(ORCID),
 
-); Code and documents.
+);
